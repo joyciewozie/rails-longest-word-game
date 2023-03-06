@@ -1,0 +1,10 @@
+<head>
+  <link rel="stylesheet" href="/app/assets/stylesheets/score.css">
+</head>
+
+<div class="jumbotron">
+  <h1 class="display-4">Result</h1>
+  <p class="lead">You answered: <%= @guess %>. <%=@result%>.</p>
+    <a class="btn btn-primary btn-lg" <%= link_to "Play Again", new_path %> </a>
+  </p>
+</div>
